@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <header className=" bg-black text-white fixed top-0 left-0 right-0">
       <nav className=" py-4 px-4 max-w-7xl mx-auto flex flex-wrap justify-between items-center">
-        <a className=" text-xl font-bold text-white" href="/home">AI-<span className=" text-orange-500">BD</span></a>
+        <a className=" text-xl font-bold text-white" href="/">AI-<span className=" text-orange-500">BD</span></a>
 
         {/* ===navitem for lg devices=== */}
         <ul className=" md:flex gap-12 text-lg hidden">
@@ -54,9 +54,9 @@ const Navbar = () => {
         </ul>
         {/* === mene icon=== */}
         <div className=" text-white lg:flex gap-4 items-center hidden">
-          <a className=" hover:text-orange-500 duration-500" href="/home"> <FaFacebookF /></a>
-          <a className=" hover:text-orange-500 duration-500" href="/home"> <FaCreativeCommonsNd /></a>
-          <a className=" hover:text-orange-500 duration-500" href="/home"> <FaTwitter /></a>
+          <a className=" hover:text-orange-500 duration-500" href="/"> <FaFacebookF /></a>
+          <a className=" hover:text-orange-500 duration-500" href="/"> <FaCreativeCommonsNd /></a>
+          <a className=" hover:text-orange-500 duration-500" href="/"> <FaTwitter /></a>
           <button onClick={openModal} className=" bg-orange-500 px-6 py-2 font-medium rounded hover:bg-white hover:text-orange-500
           transition-all duration-300 ease-in
           ">Log In</button>

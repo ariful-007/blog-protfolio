@@ -105,9 +105,9 @@ const Footer = () => {
           <div className=" flex flex-col justify-between pt-5 pb-10 border-t border-gray-500 sm:flex-row">
             <p className="text-sm text-gray-500">© Copyright 2024 | All right resereved. </p>
             <div className=" flex items-center mt-4 space-x-4 sm:mt-0">
-              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/home"> <FaTwitter className=" w-6 h-6" /></a>
-              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/home"> <FaInstagram className=" w-6 h-6" /></a>
-              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/home"> <FaFacebookF  className=" w-6 h-6" /></a>
+              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/"> <FaTwitter className=" w-6 h-6" /></a>
+              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/"> <FaInstagram className=" w-6 h-6" /></a>
+              <a className=" text-gray-500 transition-all duration-300 hover:text-orange-500" href="/"> <FaFacebookF  className=" w-6 h-6" /></a>
             </div>
           </div>
       </div>
