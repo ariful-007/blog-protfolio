@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <header className=" bg-black text-white fixed top-0 left-0 right-0">
       <nav className=" py-4 px-4 max-w-7xl mx-auto flex flex-wrap justify-between items-center">
-        <a className=" text-xl font-bold text-white" href="/">AI-<span className=" text-orange-500">BD</span></a>
+        <h1 className=" text-xl font-bold text-white"> AI-<span className=" text-orange-500">BD</span></h1>
 
         {/* ===navitem for lg devices=== */}
         <ul className=" md:flex gap-12 text-lg hidden">
@@ -63,7 +63,6 @@ const Navbar = () => {
         </div>
 
         <Modal isOpen={isModal} onClose={closeModal}/>
-
 
          {/* === mene item=== */}
         <div className=" md:hidden">
