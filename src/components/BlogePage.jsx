@@ -5,13 +5,10 @@ import BlogeCards from "./BlogeCards";
 const BlogePage = () => {
 
   const [blog, setBlog] = useState([])
-  
-
 
   useEffect(()=>{
     async function fetchBloge(){
       let url = `http://localhost:3000/blog`;
-
 
       const response = await fetch(url);
       const data = await response.json();
